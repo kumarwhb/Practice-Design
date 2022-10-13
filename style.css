@@ -1,0 +1,181 @@
+body {
+    color: white;
+}
+.toplink {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    max-height: 20px;
+}
+.toplink a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.toplink a:hover {
+    text-decoration: underline;
+    color: rgb(250, 251, 251);
+}
+.love {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* max-width: 30px; */
+    /* max-height: 30px; */
+    padding: 0px;
+}
+.heroicons {
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 60px;
+}
+.flag {
+    max-height: 40px;
+    max-width: 50px;
+}
+.secline {
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+}
+.secline a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.secline a:hover {
+    text-decoration: underline;
+    color: rgb(250, 251, 251);
+}
+body {
+    background-image: linear-gradient(rgb(149, 95, 225), rgb(148, 71, 235));
+    height: 600px;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.container a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    }
+.box {
+    background-color: rgba(201, 193, 193,0.3);
+    padding: 16px;
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 10px;
+    border-radius: 14px;
+}
+
+.thirdline {
+    text-align: center;
+    padding: 20px;
+    font-size: 10px;
+    color: white;
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    gap: 20px;
+}
+.container1 a div {
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+.container1 a {
+    text-decoration: none;
+}
+.box1 {
+    height: 45px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width: 100%;
+    max-width: 1152px;
+    background-color: white;
+    border-radius: 25px 25px 0 0;
+}
+.searchbar{
+    display: flex; 
+    justify-content: space-between;           
+}
+.iconsearch {
+    display: flex;
+    padding: 10px;
+}
+.iconsearch img{
+    background-color: rgba(255, 255, 255, 0.57);
+    opacity: 0.5;
+}
+input{
+    width: 100%;
+    border: hidden;
+    outline-color: white;
+    font-size: 18px;
+}
+.sideicon{
+    display: flex;  
+    padding: 15px;
+    gap: 5px;
+}
+.icon1{
+    background-color: #9061f9;
+    padding: 5px;
+    border-radius: 25px;
+}
+.icon2{
+    background-color: rgba(144,97,249,0.25);
+    padding: 5px;
+    border-radius: 25px;
+}
+.icon4{
+    background-color: rgba(144,97,249,0.25);
+    padding: 5px;
+    border-radius: 25px;
+}
+.iconlist{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);grid-template-columns: repeat(auto-fill, minmax(calc(160px-1px),1fr));
+    gap: 0px;
+}
+.iconlist img:hover {
+    background-color: rgb(187, 184, 184);
+    border-radius: 60px;
+    transition: 2s;
+}
+.icon3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1px solid rgb(224, 212, 212); 
+    padding-top: 40px;
+}
+.icon3 img{
+   padding: 20px;
+   border-radius: 60px;
+}
+.iconlist div{
+    background-color: white;   
+}
+.iconlist span{
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
